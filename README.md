@@ -66,4 +66,5 @@ Saisankalp  2024114010
 | 25  | Implemented DB for quiz                                  |  Sanyam Gandhi    | Sanyam Gandhi    |
 | 26  | Remove extra body tag                                    |  Akshit           | Akshit           |
 | 27  | Delete duplicate API                                     |  Sanyam Gandhi    | Sanyam Gandhi    |
+| 28  | Use HTML5                                                |  Mayank Kar       | Mayank Kar       |
 
