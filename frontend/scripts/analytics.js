@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:8001";
+const baseURL = "http://localhost:8000"; // Changed backend URL
 
 async function loadAnalytics() {
   const res = await fetch(`${baseURL}/analytics`);
