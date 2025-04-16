@@ -39,31 +39,31 @@ Saisankalp  2024114010
 
 | ID  | Issue Description                                        | Identified By     | Fixed By         |
 |-----|----------------------------------------------------------|-------------------|------------------|
-| 1   | Style.css is not filled                                  |    Narain         | Akshit           |
+| 1   | Style.css is not filled                                  |  Narain           | Akshit           |
 | 2   | Changed styles/profile.js to scripts/profile.js          |  Akshat Gupta     | Akshat Gupta     |
 | 3   | Nav Bar fixed                                            |  Akshit           | Akshit           |
 | 4   | Fix Answer API from GET to POST                          |  Akshat Gupta     | Akshat Gupta     |
 | 5   | Fix Answer API from POST to GET                          |  Akshat Gupta     | Akshat Gupta     |
 | 6   | Add graph plot                                           |  Mayank Kar       | Mayank Kar       |
 | 7   | Rectified Delete User API                                |  Akshat Gupta     | Akshat Gupta     |
-| 8   | Random.choice                                            | Akshat Gupta      | Akshat Gupta     |
+| 8   | Random.choice                                            |  Akshat Gupta     | Akshat Gupta     |
 | 9   | Fixed pydantic for quiz                                  |  Akshat Gupta     | Akshat Gupta     |
 | 10  | Fixed routes for quiz                                    |  Akshat Gupta     | Akshat Gupta     |
 | 11  | Made items.html                                          |  Saisankalp Davey | Saisankalp Davey |
 | 12  | Fixed Pydantic model for items                           |  Saisankalp Davey | Saisankalp Davey |
-| 13  | Fixed Prefixes                                           | Sanyam Gandhi     | Sanyam Gandhi    |
-| 14  | Fixed baseurl                                            | Akshat Gupta      | Akshat Gupta     |
-| 15  | Fixed API call for Delete                                | Akshat Gupta | Akshat Gupta|
-| 16  | Fixed return type for items                              |  Saisankalp Davey   | Saisankalp Davey   |
-| 17  | Add eventlisteners for news                              |  Akshat Gupta   | Akshat Gupta   |
-| 18  | Added baseurl                                            |  Mayank Kar   | Mayank Kar  |
-| 19  | Deleted home                                             |  Mayank Kar   | Mayank Kar   |
-| 20  | Disabled CORS                                            |  Saisankalp Davey   | Saisankalp Davey   |
-| 21  | Fixed var names in backend plot                          |  Akshat Gupta   | Akshat Gupta   |
-| 22  | Fixed count in profile.js                                |  Akshit   | Akshit   |
-| 23  | Changed API for delete items                             |  Sanyam Gandhi   | Sanyam Gandhi   |
-| 24  | Fixed hardcoded list                                     | Akshat Gupta | Akshat Gupta|
-| 25  | Implemented DB for quiz                                  |  Sanyam Gandhi   | Sanyam Gandhi   |
-| 26  | Remove extra body tag                                    |  Akshit   | Akshit   |
-| 27  | Delete duplicate API                                  |  Sanyam Gandhi   | Sanyam Gandhi   |
+| 13  | Fixed Prefixes                                           |  Sanyam Gandhi    | Sanyam Gandhi    |
+| 14  | Fixed baseurl                                            |  Akshat Gupta     | Akshat Gupta     |
+| 15  | Fixed API call for Delete                                |  Akshat Gupta     | Akshat Gupta     |
+| 16  | Fixed return type for items                              |  Saisankalp Davey | Saisankalp Davey |
+| 17  | Add eventlisteners for news                              |  Akshat Gupta     | Akshat Gupta     |
+| 18  | Added baseurl                                            |  Mayank Kar       | Mayank Kar       |
+| 19  | Deleted home                                             |  Mayank Kar       | Mayank Kar       |
+| 20  | Disabled CORS                                            |  Saisankalp Davey | Saisankalp Davey |
+| 21  | Fixed var names in backend plot                          |  Akshat Gupta     | Akshat Gupta     |
+| 22  | Fixed count in profile.js                                |  Akshit           | Akshit           |
+| 23  | Changed API for delete items                             |  Sanyam Gandhi    | Sanyam Gandhi    |
+| 24  | Fixed hardcoded list                                     |  Akshat Gupta     | Akshat Gupta     |
+| 25  | Implemented DB for quiz                                  |  Sanyam Gandhi    | Sanyam Gandhi    |
+| 26  | Remove extra body tag                                    |  Akshit           | Akshit           |
+| 27  | Delete duplicate API                                     |  Sanyam Gandhi    | Sanyam Gandhi    |
 
