@@ -1,2 +1,462 @@
-Aah I was too lazy to implement this
-You can do it
+/* Aah I was too lazy to implement this
+You can do it */
+
+
+/* YAA SURE WE ARE NOT AS LAZY AS YOU */
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  nav {
+    background-color: #1e293b;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  nav a {
+    color: #f1f5f9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #38bdf8; /* light blue on hover */
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      margin: 2rem 1rem;
+      padding: 1.5rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+
+
+
+
+
+  .form {
+    margin-top: 2rem;
+    background: #f0f4f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .search-container {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #itemList {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #itemList li {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #e2e8f0;
+    border-radius: 6px;
+  }
+
+
+
+
+
+
+
+
+/* User Form Styling */
+#userForm {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: #f0f4f8;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  #userForm input {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  #userForm button {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #userForm button:hover {
+    background-color: #059669;
+  }
+  
+  /* User Count */
+  #userCounts {
+    font-weight: bold;
+    margin: 1rem 0;
+    color: #475569;
+  }
+  
+  /* Search Box */
+  #search {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  /* User List */
+  #userList {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  #userList li {
+    background-color: #e2e8f0;
+    padding: 1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Analytics Stats Styling */
+#stats {
+    background-color: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+  }
+  
+  #stats p {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    color: #334155;
+  }
+  
+  #stats span {
+    font-weight: bold;
+    color: #0f766e;
+  }
+  
+  /* Analytics Image */
+  #plot {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  #plot:hover {
+    transform: scale(1.02);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* News Search and Filters */
+#search,
+#source {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+}
+
+/* News Container */
+#newsList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* News Card Styling */
+.news-scrollable .news-card {
+  background-color: #f1f5f9;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.news-scrollable .news-card:hover {
+  transform: scale(1.01);
+}
+
+.news-card h3 {
+  margin: 0 0 0.5rem;
+  color: #1e293b;
+}
+
+.news-card p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.4;
+}
+
+/* Loading Text */
+#loading {
+  text-align: center;
+  font-style: italic;
+  color: #64748b;
+  margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Quiz Score Display */
+#scoreDisplay {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0f766e;
+    margin: 1rem 0;
+  }
+  
+  /* Quiz Question Box */
+  #question {
+    font-size: 1.3rem;
+    background-color: #f1f5f9;
+    padding: 1rem;
+    border-left: 5px solid #6366f1;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: #1e293b;
+  }
+  
+  /* Answer Form Buttons/Inputs */
+  #answerForm input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  #answerForm label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    color: #334155;
+    cursor: pointer;
+  }
+  
+  #answerForm button {
+    background-color: #6366f1;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #answerForm button:hover {
+    background-color: #4f46e5;
+  }
+  
+  /* Feedback Message */
+  #feedback {
+    margin: 1rem 0;
+    font-style: italic;
+    font-weight: bold;
+    color: #475569;
+  }
+  
+  /* Reset Button */
+  #resetBtn {
+    background-color: #ef4444;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  #resetBtn.hidden {
+    display: none;
+  }
+  
+  /* Attempt Search + List */
+  #search {
+    margin-top: 2rem;
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  #attemptList {
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  /* Individual Attempt Card */
+  .attempt-scrollable .attempt-card {
+    background-color: #f8fafc;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    color: #1e293b;
+    font-size: 0.95rem;
+  }
+  
+
+  
+  
+
+
+
+
+  
