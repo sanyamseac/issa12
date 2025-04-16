@@ -10,4 +10,8 @@ class User(BaseModel):
     username: str
     bio: str
 
-    # You can raise your hands and give the answer to the chocolate question
+class QuizQuestion(BaseModel):
+    id: int
+    text: str
+    options: list
+    correct: str
