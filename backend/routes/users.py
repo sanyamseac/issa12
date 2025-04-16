@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from models import User
 from bson import ObjectId
 
-router = APIRouter()
+router = APIRouter(tags=["users"])
 
 async def get_users_collection():
     from db import init_db

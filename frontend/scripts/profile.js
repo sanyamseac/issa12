@@ -55,7 +55,7 @@ document.getElementById("userForm").addEventListener("submit", async (e) => {
   e.preventDefault();
   const username = document.getElementById("username").value;
   const bio = document.getElementById("bio").value;
-  await fetch(`/users`, {
+  await fetch(`${baseURL}/users`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ username, bio })
