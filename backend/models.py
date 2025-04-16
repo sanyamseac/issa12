@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class Item():
+class Item(BaseModel):
     name: int
     description: str
 
