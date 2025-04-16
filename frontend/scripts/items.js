@@ -38,7 +38,7 @@ document.getElementById("itemForm").addEventListener("submit", async (e) => {
   const description = document.getElementById("description").value;
   await fetch(`${baseURL}/items`, {
     method: "POST",
-    headers: { "Content-Type": "application/html" },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, description })
   });
   e.target.reset();
