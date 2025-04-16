@@ -110,7 +110,8 @@ form.addEventListener("submit", async (e) => {
       updateScoreDisplay();
       feedback.textContent = "✅ Correct!";
       await loadQuestion();
-    } else {
+    } 
+    else {
       feedback.textContent = `❌ Incorrect. Correct answer: ${data.correct_answer}. Game Over.`;
       gameOver = true;
       form.innerHTML = "";
