@@ -41,7 +41,7 @@ game_state = {"high_score": 0}
 # god would hate me for not dockerizing this repo
 @router.get("/question")
 async def get_question():
-    question = questions[1]
+    question = random.choice(questions)
     return {
         "id": question["id"],
         "text": question["text"],
