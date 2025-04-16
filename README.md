@@ -28,45 +28,42 @@
 
 - Name : Roll Number
 Akshit  2024101121
-Sanyam  2024113006
+Sanyam Gandhi  2024113006
 Mayank  2024101078
-Akshat  2024111005
+Akshat Gupta  2024111005
 Saisankalp  2024114010
 
 ### Table to keep track
 
 ### Table to keep track
 
-| ID  | Issue Description                        | Identified By | Fixed By     |
-|-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                  |    Narain     | Whole Team   |
-| 2   | Base URL missing in profile.js           |  Mayank Kar   | Mayank Kar   |
-| 3   | Missing event listeners in news.js       |  gakshat365   | gakshat365   |
-| 4   | styles.css minor update (version 2)      | akshit0942b   | akshit0942b  |
-| 5   | Wrong path: items.js /html → /json       | potatopudding | potatopudding|
-| 6   | Wrong method used for delete request     |  gakshat365   | gakshat365   |
-| 7   | style.css incomplete                     | akshit0942b   | akshit0942b  |
-| 8   | Bug in models.py                         | potatopudding | potatopudding|
-| 9   | Router not working properly              |  sanyamseac   | sanyamseac   |
-| 10  | Prefixes incorrect in routes             |  sanyamseac   | sanyamseac   |
-| 11  | baseurl not set                          |  gakshat365   | gakshat365   |
-| 12  | Wrong Pydantic usage                     |  sanyamseac   | sanyamseac   |
-| 13  | Extra body tags in HTML                  | akshit0942b   | akshit0942b  |
-| 14  | Bug in item listing                      | potatopudding | potatopudding|
-| 15  | Incorrect items.html setup               | potatopudding | potatopudding|
-| 16  | Pydantic model missing in quiz.py        |  gakshat365   | gakshat365   |
-| 17  | Quiz questions not randomized            |  gakshat365   | gakshat365   |
-| 18  | Missing quiz.html page                   | akshit0942b   | akshit0942b  |
-| 19  | Delete user function bug in users.py     |  gakshat365   | gakshat365   |
-| 20  | analytics.py changes not updated         |  Mayank Kar   | Mayank Kar   |
-| 21  | Initial commits without context          |  gakshat365   | gakshat365   |
-| 22  | analytics.py needs proper formatting     |  Mayank Kar   | Mayank Kar   |
-| 23  | Missing `.gitignore`                     |  sanyamseac   | sanyamseac   |
-| 24  | Team members not listed                  | potatopudding | potatopudding|
-| 25  | Initial repo not set up correctly        |  sanyamseac   | sanyamseac   |
-| 26  | Merge issues with remote                 |  sanyamseac   | sanyamseac   |
-| 27  |                                          |               |              |
-| 28  |                                          |               |              |
-| 29  |                                          |               |              |
-| 30  |                                          |               |              |
+| ID  | Issue Description                                        | Identified By     | Fixed By         |
+|-----|----------------------------------------------------------|-------------------|------------------|
+| 1   | Style.css is not filled                                  |    Narain         | Akshit           |
+| 2   | Changed styles/profile.js to scripts/profile.js          |  Akshat Gupta     | Akshat Gupta     |
+| 3   | Nav Bar fixed                                            |  Akshit           | Akshit           |
+| 4   | Fix Answer API from GET to POST                          |  Akshat Gupta     | Akshat Gupta     |
+| 5   | Fix Answer API from POST to GET                          |  Akshat Gupta     | Akshat Gupta     |
+| 6   | Add graph plot                                           |  Mayank Kar       | Mayank Kar       |
+| 7   | Rectified Delete User API                                |  Akshat Gupta     | Akshat Gupta     |
+| 8   | Random.choice                                            | Akshat Gupta      | Akshat Gupta     |
+| 9   | Fixed pydantic for quiz                                  |  Akshat Gupta     | Akshat Gupta     |
+| 10  | Fixed routes for quiz                                    |  Akshat Gupta     | Akshat Gupta     |
+| 11  | Made items.html                                          |  Saisankalp Davey | Saisankalp Davey |
+| 12  | Fixed Pydantic model for items                           |  Saisankalp Davey | Saisankalp Davey |
+| 13  | Fixed Prefixes                                           | Sanyam Gandhi     | Sanyam Gandhi    |
+| 14  | Fixed baseurl                                            | Akshat Gupta      | Akshat Gupta     |
+| 15  | Fixed API call for Delete                                | Akshat Gupta | Akshat Gupta|
+| 16  | Fixed return type for items                              |  Saisankalp Davey   | Saisankalp Davey   |
+| 17  | Add eventlisteners for news                              |  Akshat Gupta   | Akshat Gupta   |
+| 18  | Added baseurl                                            |  Mayank Kar   | Mayank Kar  |
+| 19  | Deleted home                                             |  Mayank Kar   | Mayank Kar   |
+| 20  | Disabled CORS                                            |  Saisankalp Davey   | Saisankalp Davey   |
+| 21  | Fixed var names in backend plot                          |  Akshat Gupta   | Akshat Gupta   |
+| 22  | Fixed count in profile.js                                |  Akshit   | Akshit   |
+| 23  | Changed API for delete items                             |  Sanyam Gandhi   | Sanyam Gandhi   |
+| 24  | Fixed hardcoded list                                     | Akshat Gupta | Akshat Gupta|
+| 25  | Implemented DB for quiz                                  |  Sanyam Gandhi   | Sanyam Gandhi   |
+| 26  | Remove extra body tag                                    |  Akshit   | Akshit   |
+| 27  | Delete duplicate API                                  |  Sanyam Gandhi   | Sanyam Gandhi   |
 
