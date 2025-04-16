@@ -64,5 +64,16 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
   }
 }
 
+document.getElementById("search").addEventListener("input", (e) => {
+  const searchTerm = e.target.value;
+  const source = document.getElementById("source").value;
+  loadNews(searchTerm, source, true);
+});
+
+document.getElementById("source").addEventListener("change", (e) => {
+  const searchTerm = document.getElementById("search").value;
+  const source = e.target.value;
+  loadNews(searchTerm, source, true);
+});
 
 loadNews();
