@@ -66,5 +66,6 @@ async def get_analytics():
     plt.close()
     
     return JSONResponse({
-        "stats": stats
+        "stats": stats,
+        "plot": f"data:image/png;base64,{image_base64}"
     })
